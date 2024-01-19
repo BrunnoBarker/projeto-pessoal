@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*
+color1: #A8763E
+color2: #F7F3E3
+color3: #197278
+color4: #3F220F
+color5: #19180A
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #3F220F;
+}

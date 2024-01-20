@@ -1,19 +1,102 @@
 @charset "UTF-8";
 
-/*
-color1: #A8763E
-color2: #F7F3E3
-color3: #197278
-color4: #3F220F
-color5: #19180A
-*/
+:root {
+    --cor1: #A8763E;
+    --cor2: #F7F3E3;
+    --cor3: #197278;
+    --cor4: #3F220F;
+    --cor5: #19180A;
+}
 
 *{
     padding: 0px;
     margin: 0px;
+    text-align: center;
     font-family: sans-serif;
 }
 
+div.clear {
+    clear: both;
+}
+
 body{
-    background-color: #3F220F;
+    background-color: var(--cor4);
+}
+
+header { 
+    text-align: left;
+}
+
+header > h1 { 
+    font-size: 3.4em;
+    padding: 30px 0px 25px 0px;
+    text-align: center;
+    color: var(--cor2);
+}
+
+header > div {
+    text-align: left;
+    padding: 30px;
+}
+
+header > div > p {
+    display: inline-block;
+    color: white;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid var(--cor3);
+}
+
+article { 
+    max-width: 60%;
+    margin: auto;
+    background-color: var(--cor2);
+    margin-top: 25px;
+}
+
+article > div {
+
+}
+
+article > div > p {
+    margin: 25px;
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+div.atual > h2 { 
+    font-size: 2.4em;
+    padding: 30px 0px 25px 0px;
+    text-align: center;
+    color: var(--cor2);
+}
+
+div.atual > b { 
+    font-size: 1.4em;
+    color: var(--cor1);
+}
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 35px;
+}
+    
+section > h2 {
+    
+}
+
+section > div {
+    margin: 15px;
+}
+
+section > div > p {
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+section > img {
+    float: left;
+    width: 450px;
+    margin: 15px;
 }

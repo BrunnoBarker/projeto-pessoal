@@ -24,50 +24,43 @@ body{
 }
 
 header { 
-    text-align: left;
+    text-align: center;
 }
 
 header > h1 { 
     font-size: 3.0em;
-    padding: 30px 0px 25px 55px;
+    padding: 30px 0px 25px 45px;
     text-align: left;
     color: var(--cor2);
     display: inline-block;
-    width: 40%;
+    width: 30%;
 }
 
-header > div {
+header > div.menu {
     text-align: right;
     padding: 30px;
     display: inline-block;
-    width: 50%;
+    width: 40%;
+    font-size: 0.8em;
 }
 
-header > div > p {
+header > div.menu > a {
     display: inline-block;
-    color: white;
-    padding: 12px;
+    color: var(--cor3);
+    padding: 8px;
     font-size: 1.1em;
-    border: 1px solid var(--cor3);
+    border: 1px solid var(--cor1);
+    border-radius: 12px;
+    text-decoration: none;
 }
 
-article { 
+picture > img { 
     max-width: 60%;
     margin: auto;
-    background-color: var(--cor2);
+    border-radius: 12px;
     margin-top: 25px;
 }
 
-article > div {
-    max-width: 60%;
-    
-}
-
-article > div > p {
-    margin: 25px;
-    font-size: 1.2em;
-    line-height: 35px;
-}
 
 div.atual > h2 { 
     font-size: 2.4em;
@@ -105,4 +98,30 @@ section > img {
     float: left;
     width: 450px;
     margin: 15px;
+    border-radius: 8px;
 }
+
+section.proximo {
+    
+}
+
+
+
+section > div.pri {
+    width: 45%;
+    float: left;
+}
+
+section > div.pri > a > img {
+    max-width: 350px;
+}
+
+section > div.seg {
+    width: 45%;
+    float: right;
+}
+
+section > div.seg > a > img {
+    max-width: 350px;
+}
+

@@ -27,115 +27,124 @@ header {
     text-align: center;
 }
 
-header > h1 { 
-    font-size: 3.0em;
-    padding: 30px 0px 25px 45px;
-    text-align: left;
-    color: var(--cor2);
-    display: inline-block;
-    width: 30%;
-}
-
-header > div.menu {
-    text-align: right;
-    padding: 30px;
-    display: inline-block;
-    width: 40%;
-    font-size: 0.8em;
-}
-
-header > div.menu > a {
-    display: inline-block;
-    color: var(--cor3);
-    padding: 8px;
-    font-size: 1.1em;
-    border: 1px solid var(--cor1);
-    border-radius: 12px;
-    text-decoration: none;
-}
-
-picture > img { 
-    max-width: 60%;
-    margin: auto;
-    border-radius: 12px;
-    margin-top: 25px;
-}
+/*mobile*/
 
 
-div.atual > h2 { 
-    font-size: 2.4em;
-    padding: 30px 0px 25px 0px;
-    text-align: center;
-    color: var(--cor2);
-}
-
-div.atual > b { 
-    font-size: 1.4em;
-    color: var(--cor1);
-}
-
-section {
-    max-width: 900px;
-    margin: auto;
-    padding-top: 35px;
-}
+/*desktop*/
+@media (min-width: 992px) {
     
-section > h2 {
-    
-}
 
-section > div {
-    margin: 15px;
-}
+    header > h1 { 
+        font-size: 3.0em;
+        padding: 30px 0px 25px 45px;
+        text-align: left;
+        color: var(--cor2);
+        display: inline-block;
+        width: 30%;
+    }
 
-section > div > p {
-    text-align: justify;
-    line-height: 1.4em;
-    color: var(--cor2);
-}
+    header > div.menu {
+        text-align: right;
+        padding: 30px;
+        display: inline-block;
+        width: 40%;
+        font-size: 0.8em;
+    }
 
-section > img {
-    float: left;
-    width: 450px;
-    margin: 15px;
-    border-radius: 8px;
-}
+    header > div.menu > a {
+        display: inline-block;
+        color: var(--cor3);
+        padding: 8px;
+        font-size: 1.1em;
+        border: 1px solid var(--cor1);
+        border-radius: 12px;
+        text-decoration: none;
+    }
 
-section.proximo > h1 {
-    font-size: 3.0em;
-    color: var(--cor3);
-    margin-bottom: 45px;
-}
+    picture > img { 
+        max-width: 60%;
+        margin: auto;
+        border-radius: 12px;
+        margin-top: 25px;
+    }
+
+
+    div.atual > h2 { 
+        font-size: 2.4em;
+        padding: 30px 0px 25px 0px;
+        text-align: center;
+        color: var(--cor2);
+    }
+
+    div.atual > b { 
+        font-size: 1.4em;
+        color: var(--cor1);
+    }
+
+    section {
+        max-width: 900px;
+        margin: auto;
+        padding-top: 35px;
+    }
+        
+    section > h2 {
+        
+    }
+
+    section > div {
+        margin: 15px;
+    }
+
+    section > div > p {
+        text-align: justify;
+        line-height: 1.4em;
+        color: var(--cor2);
+    }
+
+    section > img {
+        float: left;
+        width: 450px;
+        margin: 15px;
+        border-radius: 8px;
+    }
+
+    section.proximo > h1 {
+        font-size: 3.0em;
+        color: var(--cor3);
+        margin-bottom: 45px;
+    }
 
 
 
-section > div.pri {
-    width: 45%;
-    float: left;
-}
+    section > div.pri {
+        width: 45%;
+        float: left;
+    }
 
-section > div.pri > a > img {
-    max-width: 350px;
-    border-radius: 12px;
-}
+    section > div.pri > a > img {
+        max-width: 350px;
+        border-radius: 12px;
+    }
 
-section > div.seg {
-    width: 45%;
-    float: right;
-}
+    section > div.seg {
+        width: 45%;
+        float: right;
+    }
 
-section > div.seg > a > img {
-    max-width: 350px;
-    border-radius: 12px;
-}
+    section > div.seg > a > img {
+        max-width: 350px;
+        border-radius: 12px;
+    }
 
-footer {
-    font-size: 1.3em;
-    color: var(--cor2);
-}
+    footer {
+        font-size: 1.3em;
+        color: var(--cor2);
+    }
 
-footer > a {
-    text-decoration: none;
-    color: var(--cor3);
+    footer > a {
+        text-decoration: none;
+        color: var(--cor3);
+    }
+
 }
 
